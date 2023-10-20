@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Content Management Tool</title>
+</head>
+
+<body>
+    <video id="background-video" autoplay loop muted>
+            <source src="images/back.mp4" type="video/mp4">
+        </video>
+    <header>
+        <h1>Content Management Tool</h1>
+
+    </header>
+    <main>
+        <section id="image-upload">
+            <h2>Upload Images</h2>
+            <input type="file" id="image-input">
+            <button id="upload-button">Upload</button>
+        </section>
+
+        <section id="blog-editor">
+            <h2>Create Blogs</h2>
+            <textarea id="blog-content" placeholder="Write your blog here..."></textarea>
+            <button id="publish-button">Publish</button>
+        </section>
+    </main>
+    <section id="image-gallery">
+        <h2>Image Gallery</h2>
+        <div id="images"></div>
+    </section>
+    <section id="blog-list">
+        <h2>Blog List</h2>
+        <ul id="blogs"></ul>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
